@@ -1,0 +1,19 @@
+application: modinifya
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /css
+  static_dir: css
+  
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+  
+- url: /.*
+  script: index.html
+

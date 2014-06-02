@@ -1,0 +1,647 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+.clearfix:before,.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.affix {
+    position: fixed;
+}
+
+@font-face {
+    font-family:'helveticaNCB';src:url('fonts/HelveticaNeueCondensedBold.eot');src:url('fonts/HelveticaNeueCondensedBold.eot?#iefix') format('embedded-opentype'),url('fonts/HelveticaNeueCondensedBold.woff') format('woff'),url('fonts/HelveticaNeueCondensedBold.ttf') format('truetype');font-weight:normal;font-style:normal;
+}
+
+@font-face {
+    font-family:'erasdemiitcregular';src:url('fonts/erasdemi-webfont.eot');src:url('fonts/erasdemi-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/erasdemi-webfont.woff') format('woff'),url('fonts/erasdemi-webfont.ttf') format('truetype'),url('fonts/erasdemi-webfont.svg#erasdemiitcregular') format('svg');font-weight:normal;font-style:normal;
+}
+
+@font-face {
+    font-family:'neuropolregular';src:url('fonts/neuropol-webfont.eot');src:url('fonts/neuropol-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/neuropol-webfont.woff') format('woff'),url('fonts/neuropol-webfont.ttf') format('truetype'),url('fonts/neuropol-webfont.svg#neuropolregular') format('svg');font-weight:normal;font-style:normal;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    line-height: 1.2em;
+}
+
+p,h2,h3 {
+    color: #999;
+    font-family: 'erasdemiitcregular';
+}
+
+ul {
+    list-style: none;
+}
+
+header h1 {
+    font-family: 'neuropolregular';
+    font-size: 36px;
+    color: #999;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.rmvtxt {
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+}
+
+.bg-mod {
+    background: url(../img/mod-bg.png) no-repeat;
+    width: 495px;
+    height: 124px;
+}
+.menu li {
+    *width: 154px;
+    *height: 25px;
+    *float: left;
+    *margin-right: 10px;
+}
+.menu a {
+    display: block;
+    float: left;
+    font-family: 'helveticaNCB';
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.menu .progress-bar {
+    width: 154px;
+    height: 3px;
+    margin-top: 4px;
+    background-color: #cacaca;
+}
+
+.menu .progress-bar .prog {
+    height: 100%;
+    background-color: #fff;
+}
+
+.menu .progress-bar .prog-home {
+    width: 41px;
+}
+
+.menu .progress-bar .prog-sobre {
+    width: 47px;
+}
+
+.menu .progress-bar .prog-servico {
+    width: 70px;
+}
+
+.menu .progress-bar .prog-contato {
+    width: 70px;
+}
+
+#home {
+    background-color: #27aae1;
+    min-height: 800px;
+    min-width: 1000px;
+    position: relative;
+}
+
+#home .wrap {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+#home .menu {
+    overflow: visible;
+    position: absolute;
+    top: 193px;
+    right: 58px;
+    width: 656px;
+}
+
+#home .menu .prog-home {
+    width: 100%;
+}
+
+#home .title {
+    height: 225px;
+    width: 100%;
+    background-color: #3db3e3;
+    position: relative;
+    margin-top: 249px;
+    *top: 249px;
+}
+
+#home .title h1 {
+    background: url(../img/logo-mod.png) no-repeat;
+    width: 782px;
+    height: 142px;
+    position: absolute;
+    top: 42px;
+    right: 58px;
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+}
+
+#home h2 {
+    font-size: 36px;
+    color: #fff;
+    margin: 41px 58px 0 0;
+    *margin: 291px 58px 0 0;
+    float: right;
+}
+
+#home .tools {
+    position: absolute;
+    bottom: 0;
+    height: 85px;
+    background-color: #fff;
+}
+
+#home .tools li {
+    float: left;
+    margin: 0;
+}
+
+#home .bg-mod {
+    background-position: 0 0;
+    position: absolute;
+    top: 34px;
+    right: 58px;
+}
+
+#home .faixa-azul {
+    position: absolute;
+    top: 249px;
+    width: 100%;
+    height: 225px;
+    background-color: #3db3e3;
+    z-index: 0;
+}
+
+#home .faixa-branca {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    z-index: 0;
+}
+
+#sobre {
+    overflow: hidden;
+    min-height: 800px;
+    position: relative;
+}
+
+#sobre header {
+    position: relative;
+    overflow: hidden;
+    height: 93px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#sobre header h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#sobre header .menu {
+    overflow: visible;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 656px;
+}
+
+#sobre header .menu .prog-sobre {
+    width: 100%;
+}
+
+#sobre header .menu a {
+    color: #27aae1;
+}
+
+#sobre header .menu .prog {
+    background-color: #27aae1;
+}
+
+#sobre .p-1 {
+	margin: 47px 0 0 42px;
+	width: 936px;
+	font-size: 20px;
+}
+
+#sobre .wrap-social {
+    margin-top: 53px;
+    /*overflow: hidden;*/
+}
+
+#sobre .id-social {
+    float: left;
+    width: 176px;
+    height: 235px;
+    margin-left: 45px;
+    background-color: #27aae1;
+}
+
+#sobre .id-social img {
+    margin: 18px 0 0 34px;
+}
+
+#sobre .id-social h1 {
+    font-family: 'erasdemiitcregular';
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#sobre .id-social ul {
+    overflow: hidden;
+    margin: 14px 0 0 31px;
+}
+
+#sobre .id-social ul li {
+    *width: 32px;
+    *height: 32px;
+    *float: left;
+    *margin-right: 8px;
+}
+
+#sobre .id-social ul a {
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-right: 8px;
+}
+
+#sobre .id-social ul .social {
+    background: url(../img/social-icon.png) no-repeat;
+}
+
+#sobre .id-social ul .sc-fb {
+    background-position: 0 0;
+}
+
+#sobre .id-social ul .sc-fb:hover {
+    background-position: 0 -33px;
+}
+
+#sobre .id-social ul .sc-tt {
+    background-position: -39px 0;
+}
+
+#sobre .id-social ul .sc-tt:hover {
+    background-position: -39px -33px;
+}
+
+#sobre .id-social ul .sc-in {
+    background-position: -78px 0;
+}
+
+#sobre .id-social ul .sc-in:hover {
+    background-position: -78px -33px;
+}
+
+#sobre .p-2 {
+	float: left;
+	margin-left: 25px;
+	margin-top: 0px;
+	margin: 0px 0 45px 25px;
+	font-size: 20px;
+	width: 500px;
+}
+
+#sobre .not {
+    margin-top: 0;
+}
+
+#sobre .bg-mod {
+    background-position: 0 -147px;
+    position: absolute;
+    bottom: 65px;
+    right: 55px;
+}
+
+#servico {
+    min-height: 800px;
+    min-width: 1000px;
+    background: url(../img/bg-servicos.png) no-repeat top center;
+    background-color: #069;
+    position: relative;
+}
+
+#servico header {
+    position: relative;
+    overflow: hidden;
+    height: 93px;
+    width: 900px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#servico header h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+
+#servico header .menu {
+    overflow: visible;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 656px;
+}
+
+#servico header .menu .prog-servico {
+    width: 100%;
+}
+
+#servico .box-recursos {
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    margin-top: 48px;
+}
+
+#servico .box-recursos h2 {
+    color: #fff;
+    left: 52px;
+    top: 0;
+    position: absolute;
+    font-size: 24px;
+}
+
+#servico .box-recursos h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 17px;
+    font-size: 20px;
+}
+
+#servico .box-recursos .rec-fabrica {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#servico .box-recursos .rec-fabrica h3 {
+    margin-left: 66px;
+}
+
+#servico .box-recursos .rec-atendimento {
+    position: absolute;
+    bottom: 0;
+    left: 280px;
+}
+
+#servico .box-recursos .rec-atendimento h3 {
+    margin-left: 51px;
+}
+
+#servico .box-recursos .rec-codigo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#servico .box-recursos .rec-codigo h3 {
+    margin-left: 50px;
+}
+
+#servico .qualidades {
+    overflow: hidden;
+    font-family: 'erasdemiitcregular';
+}
+
+#servico .qualidades h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#servico .qualidades article {
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    float: left;
+}
+
+#servico .qualidades article h1 {
+    color: #26aae1;
+    margin: 22px 0 0 109px;
+    text-align: left;
+}
+
+#servico .qualidades article p {
+    width: 563px;
+    color: #fff;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 25px;
+}
+
+#servico .qualidades .transformar {
+    height: 93px;
+    margin-left: 102px;
+    background: url(../img/icons-service.png) no-repeat 0 -2px;
+}
+
+#servico .qualidades .solucao {
+    height: 112px;
+    margin-left: 140px;
+    background: url(../img/icons-service.png) no-repeat 0 -121px;
+}
+
+#servico .seta {
+    height: 34px;
+    width: 68px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -34px;
+    background: url(../img/setas-nav.png) no-repeat 0 0;
+    z-index: 10;
+}
+
+#servico .faixa-cinza {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 537px;
+    background-color: #999;
+}
+
+#contato {
+    overflow: hidden;
+    min-height: 800px;
+    background: url(../img/mapa.jpg) no-repeat 70px 250px;
+    background-color: #fff;
+    position: relative;
+}
+
+#contato header {
+    position: relative;
+    overflow: hidden;
+    height: 93px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#contato header h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#contato header .menu {
+    overflow: visible;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 656px;
+}
+
+#contato header .menu .prog-contato {
+    width: 100%;
+}
+
+#contato header .menu a {
+    color: #27aae1;
+}
+
+#contato header .menu .progress-bar .prog {
+    background-color: #27aae1;
+}
+
+#contato .titles {
+    margin: 43px 0 0 41px;
+    font-family: 'erasdemiitcregular';
+}
+
+#contato .titles h1 {
+    font-size: 36px;
+    color: #26aae1;
+}
+
+#contato .titles h2 {
+    font-size: 24px;
+}
+
+#contato .info-contato {
+    overflow: hidden;
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    font-family: 'erasdemiitcregular';
+	font-size:14px;
+	line-height:16px;
+    color: #26aae1;
+}
+
+#contato .info-contato2 {
+    overflow: hidden;
+    position: absolute;
+    top: 530px;
+    left: 545px;
+	font-size:14px;
+	line-height:16px;
+    font-family: 'erasdemiitcregular';
+    color: #26aae1;
+}
+
+#contato .info-contato .pais {
+    text-transform: uppercase;
+}
+
+#contato .bg-mod {
+    background-position: 0 -147px;
+    position: absolute;
+    bottom: 65px;
+    right: 55px;
+}
+
+#contato .seta {
+    height: 34px;
+    width: 68px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -34px;
+    background: url(../img/setas-nav.png) no-repeat 0 -38px;
+}
