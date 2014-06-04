@@ -8,7 +8,9 @@ public class MyRunTest {
 
 	@Test
 	public void myFirstTest(){
-		assertTrue(1 == 1);
+		// FIXME: this is only a dummy test...
+		int i = 1;
+		assertTrue(i == 1);
 	}
 
 }
