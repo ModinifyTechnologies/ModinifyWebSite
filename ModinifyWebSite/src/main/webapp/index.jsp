@@ -2,10 +2,19 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]--> 
+<%@page import="java.util.Locale"%>
+<%@page import="java.util.ResourceBundle"%>
+<%
+	Locale locale = request.getLocale();
+	ResourceBundle bundle = ResourceBundle.getBundle("com.modinify.messages.index", locale);
+%>
+
+
 <head>
-    <meta charset="utf-8">
-    <title>Mod!</title>
+    <meta charset="iso-8859-1">
+    <title><%=bundle.getString("index.title")%></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content=""/>
@@ -32,7 +41,7 @@
                             <ul>
                                 <li>
                                     <a href="#/home" title="">
-                                        <span>Home</span>
+                                        <span><%=bundle.getString("index.menu.home")%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-home"></div>
                                         </div>
@@ -40,7 +49,7 @@
                                 </li>
                                 <li>
                                     <a href="#/sobre" title="">
-                                        <span>Sobre</span>
+                                        <span><%=bundle.getString("index.menu.about")%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-sobre"></div>
                                         </div>
@@ -48,7 +57,7 @@
                                 </li>
                                 <li>
                                     <a href="#/servico" title="">
-                                        <span>Servi√ßos</span>
+                                        <span><%=bundle.getString("index.menu.services")%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-servico"></div>
                                         </div>
@@ -56,7 +65,7 @@
                                 </li>
                                 <li>
                                     <a href="#/contato" title="">
-                                        <span>Contato</span>
+                                        <span><%=bundle.getString("index.menu.contact")%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-contato"></div>
                                         </div>
@@ -67,7 +76,7 @@
                         <div class="title">
                             <h1>Mod</h1>
                         </div>
-                        <h2>Sua f√°brica brasileira na √çndia</h2>
+                        <h2>Sua f·brica brasileira na Õndia</h2>
                         <div class="tools">
                             <ul>
                                 <li><img src="img/logo1-tool.jpg" alt=""></li>
@@ -108,7 +117,7 @@
                                     </li>
                                     <li>
                                         <a href="#/servico" title="">
-                                            <span>Servi√ßos</span>
+                                            <span>ServiÁos</span>
                                             <div class="progress-bar">
                                                 <div class="prog prog-servico"></div>
                                             </div>
@@ -126,7 +135,7 @@
                             </nav>
                         </header>
                         <p class="p-1">
-                            A m√£o de obra especializada no Brasil tornou-se o maior desafio de crescimento para as empresas de tecnologia. Com a Mod! sua empresa tem a disposi√ß√£o o maior mercado de m√£o de obra especializada do mundo de uma maneira simples e f√°cil, pois s√≥ uma fabrica brasileira pode atender as necessidades do nosso mercado.
+                            A m„o de obra especializada no Brasil tornou-se o maior desafio de crescimento para as empresas de tecnologia. Com a Mod! sua empresa tem a disposiÁ„o o maior mercado de m„o de obra especializada do mundo de uma maneira simples e f·cil, pois sÛ uma fabrica brasileira pode atender as necessidades do nosso mercado.
                         </p>
                         <div class="wrap-social">
                             <div class="id-social">
@@ -151,10 +160,10 @@
                                         <li><a class="social sc-in" href="http://www.linkedin.com/profile/view?id=51049056" target="_blank" title="LinkedIn"></a></li>
                                     </ul>
                                 </div>
-                                <p class="p-2">Fundada pelos brasileiros Richard Ferraresi e Aline Borges, a Mod! foi criada na √çndia para atender as necessidades do mercado brasileiro. Acreditamos que nosso maior diferencial √© a presen√ßa de um dos acionistas baseado na √çndia e outro no Brasil.
+                                <p class="p-2">Fundada pelos brasileiros Richard Ferraresi e Aline Borges, a Mod! foi criada na Õçndia para atender as necessidades do mercado brasileiro. Acreditamos que nosso maior diferencial … a presenÁa de um dos acionistas baseado na Õndia e outro no Brasil.
                           </p>
                                 <p class="p-2 not">
-                                    Somente dessa forma, conseguimos fornecer produtos e servi√ßos com o DNA brasileiro e voltado para as nossas necessidades.
+                                    Somente dessa forma, conseguimos fornecer produtos e serviÁos com o DNA brasileiro e voltado para as nossas necessidades.
                                 </p>
                             </div>
                             <div class="bg-mod"></div>
@@ -163,7 +172,7 @@
                     <section id="servico">
                         <div class="wrap">
                             <header>
-                                <h1>Servi√ßos</h1>
+                                <h1>ServiÁos</h1>
                                 <nav class="menu">
                                     <ul>
                                         <li>
@@ -184,7 +193,7 @@
                                         </li>
                                         <li>
                                             <a href="#/servico" title="">
-                                                <span>Servi√ßos</span>
+                                                <span>ServiÁos</span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-servico"></div>
                                                 </div>
@@ -202,27 +211,27 @@
                                 </nav>
                             </header>
                             <div class="box-recursos">
-                                <h2>A importa√ß√£o de um jeito que funciona.</h2>
+                                <h2>A importaÁ„o de um jeito que funciona.</h2>
                                 <div class="rec-fabrica">
                                     <h3>
-                                        F√°brica brasileira de<br />
-                                        c√≥digos na √çndia
+                                        F·brica brasileira de<br />
+                                        cÛdigos na Õçndia
                                     </h3>
-                                    <img src="img/img1-service.png" alt="F√°brica brasileira de c√≥digos na √çndia" />
+                                    <img src="img/img1-service.png" alt="F·brica brasileira de cÛdigos na Õçndia" />
                                 </div>
                                 <div class="rec-atendimento">
                                     <h3>
                                         Atendimento no Brasil e <br />
-                                        suporte brasileiro na √çndia
+                                        suporte brasileiro na Õndia
                                     </h3>
-                                    <img src="img/img2-service.png" alt="Atendimento no Brasil e suporte brasileiro na √çndia" />
+                                    <img src="img/img2-service.png" alt="Atendimento no Brasil e suporte brasileiro na Õndia" />
                                 </div>
                                 <div class="rec-codigo">
                                     <h3>
-                                        C√≥digos indianos com<br />
+                                        CÛdigos indianos com<br />
                                         qualidade brasileira
                                     </h3>
-                                    <img src="img/img3-service.png" alt="C√≥digos indianos com qualidade brasileira" />
+                                    <img src="img/img3-service.png" alt="CÛdigos indianos com qualidade brasileira" />
                                 </div>
                             </div>
                             <div class="qualidades">
@@ -230,12 +239,12 @@
                                 <article class="transformar">
                                     <h1>
                                         Transformar custo<br />
-                                        fixo em vari√°vel
+                                        fixo em vari·vel
                                     </h1>
                                 </article>
                                 <article class="solucao">
                                     <h1>
-                                        Solu√ß√£o inovadora<br />
+                                        SoluÁ„o inovadora<br />
                                         e inteligente
                                     </h1>
                                 </article>
@@ -268,7 +277,7 @@
                                         </li>
                                         <li>
                                             <a href="#/servico" title="">
-                                                <span>Servi√ßos</span>
+                                                <span>ServiÁos</span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-servico"></div>
                                                 </div>
@@ -292,9 +301,9 @@
                             <div class="info-contato">
                                 <ul>
                                     <li class="pais">Brasil</li>
-                                    <li class="endereco">Avenida Ang√©lica, 2223 - Sala 802</li>
-                                    <li class="endereco">Consola√ß√£o - CEP 01227-200</li>
-                                    <li class="estado">S√£o Paulo - SP</li>
+                                    <li class="endereco">Avenida AngÈlica, 2223 - Sala 802</li>
+                                    <li class="endereco">ConsolaÁ„o - CEP 01227-200</li>
+                                    <li class="estado">S„o Paulo - SP</li>
                                     <li class="telefone">11 3455-7547</li>
                                     <li class="email">contato@modinify.com</li>
                                 </ul>

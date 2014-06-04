@@ -15,6 +15,12 @@
       <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
+     <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-all</artifactId>
+        <version>1.9.0</version>
+        <scope>test</scope>
+    </dependency>
     <dependency>
         <groupId>com.google.appengine</groupId>
         <artifactId>appengine-testing</artifactId>
@@ -31,10 +37,12 @@
   
   <build>
     <finalName>ModinifyWebSite</finalName>
+    <outputDirectory>target/${project.artifactId}-${project.version}/WEB-INF/classes</outputDirectory>
     <plugins>
     	<plugin>
    			<groupId>com.google.appengine</groupId>
    			<artifactId>appengine-maven-plugin</artifactId>
+   			<version>1.8.2</version>
 		</plugin>
     </plugins>
   </build>
