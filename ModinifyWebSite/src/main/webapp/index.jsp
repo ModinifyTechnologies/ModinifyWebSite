@@ -8,6 +8,8 @@
 <%@page import="java.util.ResourceBundle"%>
 <%
 	Locale locale = request.getLocale();
+	// This is an example how to set manually locale
+	// locale = new Locale("pt", "BR");
 	ResourceBundle bundle = ResourceBundle.getBundle("com.modinify.messages.index", locale);
 %>
 
