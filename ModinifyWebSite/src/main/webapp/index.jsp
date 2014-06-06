@@ -3,6 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
+<%@page import="com.modinify.messages.MessageBundle"%>
 <html class="no-js"> <!--<![endif]--> 
 <%@page import="java.util.Locale"%>
 <%@page import="java.util.ResourceBundle"%>
@@ -16,7 +17,7 @@
 
 <head>
     <meta charset="iso-8859-1">
-    <title><%=bundle.getString("index.title")%></title>
+    <title><%=bundle.getString(MessageBundle.INDEX_TITLE)%></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content=""/>
@@ -43,7 +44,7 @@
                             <ul>
                                 <li>
                                     <a href="#/home" title="">
-                                        <span><%=bundle.getString("index.menu.home")%></span>
+                                        <span><%=bundle.getString(MessageBundle.INDEX_HOME)%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-home"></div>
                                         </div>
@@ -51,7 +52,7 @@
                                 </li>
                                 <li>
                                     <a href="#/sobre" title="">
-                                        <span><%=bundle.getString("index.menu.about")%></span>
+                                        <span><%=bundle.getString(MessageBundle.INDEX_ABOUT)%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-sobre"></div>
                                         </div>
@@ -59,7 +60,7 @@
                                 </li>
                                 <li>
                                     <a href="#/servico" title="">
-                                        <span><%=bundle.getString("index.menu.services")%></span>
+                                        <span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-servico"></div>
                                         </div>
@@ -67,7 +68,7 @@
                                 </li>
                                 <li>
                                     <a href="#/contato" title="">
-                                        <span><%=bundle.getString("index.menu.contact")%></span>
+                                        <span><%=bundle.getString(MessageBundle.INDEX_CONTACT)%></span>
                                         <div class="progress-bar">
                                             <div class="prog prog-contato"></div>
                                         </div>
@@ -76,9 +77,9 @@
                             </ul>
                         </nav>
                         <div class="title">
-                            <h1>Mod</h1>
+                            <h1><%=bundle.getString(MessageBundle.INDEX_TITLE)%></h1>
                         </div>
-                        <h2>Sua fábrica brasileira na Índia</h2>
+                        <h2><%=bundle.getString(MessageBundle.BODY_DISPLAY)%></h2>
                         <div class="tools">
                             <ul>
                                 <li><img src="img/logo1-tool.jpg" alt=""></li>
@@ -98,12 +99,12 @@
                 <div class="wrap">
                     <section id="sobre">
                         <header>
-                            <h1>Sobre </h1>
+                            <h1><%=bundle.getString(MessageBundle.INDEX_ABOUT)%></h1>
                             <nav class="menu">
                                 <ul>
                                     <li>
                                         <a href="#/home" title="">
-                                            <span>Home</span>
+                                            <span><%=bundle.getString(MessageBundle.INDEX_HOME)%></span>
                                             <div class="progress-bar">
                                                 <div class="prog prog-home"></div>
                                             </div>
@@ -111,7 +112,7 @@
                                     </li>
                                     <li>
                                         <a href="#/sobre" title="">
-                                            <span>Sobre</span>
+                                            <span><%=bundle.getString(MessageBundle.INDEX_ABOUT)%></span>
                                             <div class="progress-bar">
                                                 <div class="prog prog-sobre"></div>
                                             </div>
@@ -119,7 +120,7 @@
                                     </li>
                                     <li>
                                         <a href="#/servico" title="">
-                                            <span>Serviços</span>
+                                            <span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%></span>
                                             <div class="progress-bar">
                                                 <div class="prog prog-servico"></div>
                                             </div>
@@ -127,7 +128,7 @@
                                     </li>
                                     <li>
                                         <a href="#/contato" title="">
-                                            <span>Contato</span>
+                                            <span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%>
                                             <div class="progress-bar">
                                                 <div class="prog prog-contato"></div>
                                             </div>
@@ -137,7 +138,7 @@
                             </nav>
                         </header>
                         <p class="p-1">
-                            A mão de obra especializada no Brasil tornou-se o maior desafio de crescimento para as empresas de tecnologia. Com a Mod! sua empresa tem a disposição o maior mercado de mão de obra especializada do mundo de uma maneira simples e fácil, pois só uma fabrica brasileira pode atender as necessidades do nosso mercado.
+				<span><%=bundle.getString(MessageBundle.BODY_ABOUT1)%></span>
                         </p>
                         <div class="wrap-social">
                             <div class="id-social">
@@ -174,12 +175,12 @@
                     <section id="servico">
                         <div class="wrap">
                             <header>
-                                <h1>Serviços</h1>
+                                <h1><span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%></span></h1>
                                 <nav class="menu">
                                     <ul>
                                         <li>
                                             <a href="#/home" title="">
-                                                <span>Home</span>
+                                                <span> <span><%=bundle.getString(MessageBundle.INDEX_HOME)%></span></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-home"></div>
                                                 </div>
@@ -187,7 +188,7 @@
                                         </li>
                                         <li>
                                             <a href="#/sobre" title="">
-                                                <span>Sobre</span>
+                                                <span><%=bundle.getString(MessageBundle.INDEX_ABOUT)%></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-sobre"></div>
                                                 </div>
@@ -195,7 +196,7 @@
                                         </li>
                                         <li>
                                             <a href="#/servico" title="">
-                                                <span>Serviços</span>
+                                                <span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-servico"></div>
                                                 </div>
@@ -203,7 +204,7 @@
                                         </li>
                                         <li>
                                             <a href="#/contato" title="">
-                                                <span>Contato</span>
+                                                <span> <span><%=bundle.getString(MessageBundle.INDEX_HOME)%></span></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-contato"></div>
                                                 </div>
@@ -258,12 +259,12 @@
                     <div class="wrap">
                         <section id="contato">
                             <header>
-                                <h1>Contato</h1>
+                                <h1> <span><%=bundle.getString(MessageBundle.INDEX_CONTACT)%></span></h1>
                                 <nav class="menu">
                                     <ul>
                                         <li>
                                             <a href="#/home" title="">
-                                                <span>Home</span>
+                                                <span> <span><%=bundle.getString(MessageBundle.INDEX_HOME)%></span></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-home"></div>
                                                 </div>
@@ -271,7 +272,7 @@
                                         </li>
                                         <li>
                                             <a href="#/sobre" title="">
-                                                <span>Sobre</span>
+                                                 <span><%=bundle.getString(MessageBundle.INDEX_ABOUT)%></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-sobre"></div>
                                                 </div>
@@ -279,7 +280,7 @@
                                         </li>
                                         <li>
                                             <a href="#/servico" title="">
-                                                <span>Serviços</span>
+                                                 <span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-servico"></div>
                                                 </div>
@@ -287,7 +288,7 @@
                                         </li>
                                         <li>
                                             <a href="#/contato" title="">
-                                                <span>Contato</span>
+                                                 <span><%=bundle.getString(MessageBundle.INDEX_CONTACT)%></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-contato"></div>
                                                 </div>
