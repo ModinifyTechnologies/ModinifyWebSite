@@ -11,6 +11,7 @@ import com.modinify.messages.MessageBundle;
 
 public class MyRunTest {
 
+	
 	@Test
 	public void checkingBrazilianBundle(){
 		Locale locale = new Locale("pt", "BR");
@@ -26,10 +27,8 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Fundada pelos brasileiros Richard Ferraresi e Aline Borges, a Mod! foi criada na Í\u008Dndia para atender as necessidades do mercado brasileiro. Acreditamos que nosso maior diferencial É a presença de um dos acionistas baseado na Índia e outro no Brasil."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Somente dessa forma, conseguimos fornecer produtos e serviços com o DNA brasileiro e voltado para as nossas necessidades."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("A importação de um jeito que funciona"));
-		
-		
-		
 	}
+	
 	
 	@Test
 	public void checkingDefaultBundle(){
