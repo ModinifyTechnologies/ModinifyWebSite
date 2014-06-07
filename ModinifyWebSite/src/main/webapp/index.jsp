@@ -6,7 +6,7 @@
 <html class="no-js"> <!--<![endif]--> 
 <%@page import="java.util.Locale"%>
 <%@page import="java.util.ResourceBundle"%>
-<%@page import="com.modinify.messages.MessageBundle;" %>
+<%@page import="com.modinify.messages.MessageBundle" %>
 
 <%
 	Locale locale = request.getLocale();
