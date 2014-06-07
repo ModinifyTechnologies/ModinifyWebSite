@@ -11,7 +11,6 @@ import com.modinify.messages.MessageBundle;
 
 public class MyRunTest {
 
-	
 	@Test
 	public void checkingBrazilianBundle(){
 		Locale locale = new Locale("pt", "BR");
@@ -64,6 +63,4 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("It is a different and modern factory, which follows new trends and, above all, the time of marketing of our clients, with quality and efficiency"));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("Meet our factory, meet MOD!"));
 	}
-	
-
 }
