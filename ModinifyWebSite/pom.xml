@@ -49,7 +49,6 @@
   
   <build>
     <finalName>ModinifyWebSite</finalName>
-    <outputDirectory>target/${project.artifactId}-${project.version}/WEB-INF/classes</outputDirectory>
     <plugins>
      <plugin>  
             <groupId>org.apache.maven.plugins</groupId>  
