@@ -164,11 +164,11 @@
                                         <li><a class="social sc-in" href="http://www.linkedin.com/profile/view?id=51049056" target="_blank" title="LinkedIn"></a></li>
                                     </ul>
                                 </div>
-                                <p class="p-2">Fundada pelos brasileiros Richard Ferraresi e Aline Borges, a Mod! foi criada na Õçndia para atender as necessidades do mercado brasileiro. Acreditamos que nosso maior diferencial … a presenÁa de um dos acionistas baseado na Õndia e outro no Brasil.
-                          </p>
-                                <p class="p-2 not">
-                                    Somente dessa forma, conseguimos fornecer produtos e serviÁos com o DNA brasileiro e voltado para as nossas necessidades.
+                                <p class="p-2"><%=bundle.getString(MessageBundle.BODY_ABOUT2) %></p>
+                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%><br><br><br>
+                                <%=bundle.getString(MessageBundle.BODY_ABOUT4)%>
                                 </p>
+                                 
                             </div>
                             <div class="bg-mod"></div>
                         </section>
@@ -215,41 +215,40 @@
                                 </nav>
                             </header>
                             <div class="box-recursos">
-                                <h2>A importaÁ„o de um jeito que funciona.</h2>
+                                <h2><%=bundle.getString(MessageBundle.FIG0)%></h2><br>
                                 <div class="rec-fabrica">
-                                    <h3>
-                                        F·brica brasileira de<br />
-                                        cÛdigos na Õçndia
+                                    <h3><%=bundle.getString(MessageBundle.FIG1)%>
+                                    <br />
+                                      <%=bundle.getString(MessageBundle.FIG11) %> 
                                     </h3>
                                     <img src="img/img1-service.png" alt="F·brica brasileira de cÛdigos na Õçndia" />
                                 </div>
                                 <div class="rec-atendimento">
                                     <h3>
-                                        Atendimento no Brasil e <br />
-                                        suporte brasileiro na Õndia
+                                       <%=bundle.getString(MessageBundle.FIG2)%><br />
+                                       <%= bundle.getString(MessageBundle.FIG22)%>
                                     </h3>
                                     <img src="img/img2-service.png" alt="Atendimento no Brasil e suporte brasileiro na Õndia" />
                                 </div>
                                 <div class="rec-codigo">
                                     <h3>
-                                        CÛdigos indianos com<br />
-                                        qualidade brasileira
+                                        <%= bundle.getString(MessageBundle.FIG3)%><br />
+                                       <%=bundle.getString(MessageBundle.FIG33)%>
                                     </h3>
                                     <img src="img/img3-service.png" alt="CÛdigos indianos com qualidade brasileira" />
                                 </div>
                             </div>
                             <div class="qualidades">
-                                <h1>Ampla oferta de profissionais qualificados, com disponibilidade imediata.</h1>
                                 <article class="transformar">
-                                    <h1>
-                                        Transformar custo<br />
-                                        fixo em vari·vel
+                                    <h1> <%=bundle.getString(MessageBundle.FIG4)%>
+                                        <br />
+                                         <%=bundle.getString(MessageBundle.FIG44)%>
                                     </h1>
                                 </article>
                                 <article class="solucao">
-                                    <h1>
-                                        SoluÁ„o inovadora<br />
-                                        e inteligente
+                                    <h1> <%=bundle.getString(MessageBundle.FIG5) %>
+                                        <br />
+                                         <%=bundle.getString(MessageBundle.FIG55)%>
                                     </h1>
                                 </article>
                             </div>
@@ -299,27 +298,27 @@
                                 </nav>
                             </header>
                             <div class="titles">
-                                <h1>Agende uma visita</h1>
-                                <h2>Entre em contato conosco ou venha nos visitar:</h2>
+                                <h1><%=bundle.getString(MessageBundle.CONTACT11)%></h1>
+                                <h2><%=bundle.getString(MessageBundle.CONTACT12)%></h2>
                             </div>
                             <div class="info-contato">
                                 <ul>
-                                    <li class="pais">Brasil</li>
-                                    <li class="endereco">Avenida AngÈlica, 2223 - Sala 802</li>
-                                    <li class="endereco">ConsolaÁ„o - CEP 01227-200</li>
-                                    <li class="estado">S„o Paulo - SP</li>
-                                    <li class="telefone">11 3455-7547</li>
-                                    <li class="email">contato@modinify.com</li>
+                                    <li class="pais"><%=bundle.getString(MessageBundle.ADBR1)%></li>
+                                    <li class="endereco"><%=bundle.getString(MessageBundle.ADBR2)%></li>
+                                    <li class="endereco"><%=bundle.getString(MessageBundle.ADBR3)%></li>
+                                    <li class="estado"><%=bundle.getString(MessageBundle.ADBR4)%></li>
+                                    <li class="telefone"><%=bundle.getString(MessageBundle.ADBR5)%></li>
+                                    <li class="email"><%=bundle.getString(MessageBundle.ADBR6)%></li>
                                 </ul>
                             </div>
                             <div class="info-contato2">
                                 <ul>
-                                    <li class="pais">INDIA</li>
-                                    <li class="endereco">Azad Road</li>
-                                    <li class="endereco">Kaloor, Cochin-17</li>
-                                    <li class="estado">Kerala, 682017</li>
-                                    <li class="telefone">+91 7561 810919</li>
-                                    <li class="email">contact@modinify.com</li>
+                                    <li class="pais"><%=bundle.getString(MessageBundle.ADIN1)%></li>
+                                    <li class="endereco"><%=bundle.getString(MessageBundle.ADIN2)%></li>
+                                    <li class="endereco"><%=bundle.getString(MessageBundle.ADIN3)%></li>
+                                    <li class="estado"><%=bundle.getString(MessageBundle.ADIN4)%></li>
+                                    <li class="telefone"><%=bundle.getString(MessageBundle.ADIN5)%></li>
+                                    <li class="email"><%=bundle.getString(MessageBundle.ADIN6)%></li>
                                 </ul>
                           </div>
                             <div class="bg-mod"></div>
