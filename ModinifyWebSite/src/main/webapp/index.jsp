@@ -129,7 +129,7 @@
                                     </li>
                                     <li>
                                         <a href="#/contato" title="">
-                                            <span><%=bundle.getString(MessageBundle.INDEX_SERVICES)%>
+                                            <span><%=bundle.getString(MessageBundle.INDEX_CONTACT)%>
                                             <div class="progress-bar">
                                                 <div class="prog prog-contato"></div>
                                             </div>
@@ -205,7 +205,7 @@
                                         </li>
                                         <li>
                                             <a href="#/contato" title="">
-                                                <span> <span><%=bundle.getString(MessageBundle.INDEX_HOME)%></span></span>
+                                                <span> <span><%=bundle.getString(MessageBundle.INDEX_CONTACT)%></span></span>
                                                 <div class="progress-bar">
                                                     <div class="prog prog-contato"></div>
                                                 </div>
