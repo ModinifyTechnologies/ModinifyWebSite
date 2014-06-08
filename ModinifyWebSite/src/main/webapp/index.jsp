@@ -165,7 +165,7 @@
                                     </ul>
                                 </div>
                                 <p class="p-2"><%=bundle.getString(MessageBundle.BODY_ABOUT2) %></p>
-                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%><br><br><br>
+                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%><br><br>
                                 <%=bundle.getString(MessageBundle.BODY_ABOUT4)%>
                                 </p>
                                  

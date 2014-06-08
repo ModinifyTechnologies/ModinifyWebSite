@@ -22,28 +22,29 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.INDEX_CONTACT).equals("CONTATO"));
 		
 		//Testing for the display messages inside the About Page
-		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("Sua f·brica brasileira na Õndia"));
-		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT1).equals("A m„o de obra especializada no Brasil tornou-se o maior desafio de crescimento para as empresas de tecnologia. Com a Mod! sua empresa tem a disposiÁ„o o maior mercado de m„o de obra especializada do mundo de uma maneira simples e f·cil, pois sÛ uma fabrica brasileira pode atender as necessidades do nosso mercado."));
-		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Fundada pelos brasileiros Richard Ferraresi e Aline Borges, a Mod! foi criada na Õ\u008Dndia para atender as necessidades do mercado brasileiro. Acreditamos que nosso maior diferencial … a presenÁa de um dos acionistas baseado na Õndia e outro no Brasil."));
-		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Somente dessa forma, conseguimos fornecer produtos e serviÁos com o DNA brasileiro e voltado para as nossas necessidades."));
-		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("Meet our factory, meet MOD!"));
+		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("Sua nova f·brica de soluÁıes"));
+		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT1).equals("Desenvolvimento de sistemas, modificaÁıes e novas funcionalidades precisam ser implementadas atendendo as necessidades do cliente e n„o as premissas de tecnologia. Qualidade deve ser a base de tudo e n„o um diferencial.Mas os modelos de desenvolvimento de software tradicionais n„o acompanharam a evoluÁ„o e as necessidades do mercado atual."));
+		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Pensando nisso, Richard Ferraresi e Aline Borges criaramuma estrutura de atendimento com f·bricas e unidades fora do Brasil. Aplicaramconceitos de agilidade, com pequenas entregas e muita interaÁ„o com o cliente, complementadas por testes automatizados e ferramentas de acompanhamento, trazendo mais qualidade."));
+		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("… uma f·brica diferente e moderna, que acompanha as novas tendÍncias e, acima de tudo, o tempo dos clientes e dos negÛcios, com qualidade e eficiÍncia."));
+		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("ConheÁa nossa f·brica, atender MOD!"));
 		
 		// Testing for the Figure Messages in Service Page
-		assertTrue(bundle.getString(MessageBundle.FIG0).equals("A importaÁ„o de um jeito que funciona"));
-		assertTrue(bundle.getString(MessageBundle.FIG1).equals("F·brica brasileira"));
-		assertTrue(bundle.getString(MessageBundle.FIG11).equals("decÛdigos na Õçndia"));
-		assertTrue(bundle.getString(MessageBundle.FIG2).equals("Atendimento no Brasil e"));
-		assertTrue(bundle.getString(MessageBundle.FIG22).equals("suporte brasileiro na Õndia"));
-		assertTrue(bundle.getString(MessageBundle.FIG3).equals("CÛdigos indianos com"));
-		assertTrue(bundle.getString(MessageBundle.FIG33).equals("qualidade brasileira"));
-		assertTrue(bundle.getString(MessageBundle.FIG4).equals("Transformar custo"));
-		assertTrue(bundle.getString(MessageBundle.FIG44).equals("fixo em vari·vel"));
-		assertTrue(bundle.getString(MessageBundle.FIG5).equals("SoluÁ„o inovadora"));
-		assertTrue(bundle.getString(MessageBundle.FIG55).equals("e inteligente"));
+		assertTrue(bundle.getString(MessageBundle.FIG0).equals("Uma f·brica diferente."));
+		assertTrue(bundle.getString(MessageBundle.FIG1).equals("EspecificaÁıes vivas,"));
+		assertTrue(bundle.getString(MessageBundle.FIG11).equals("mais objetivas e din‚micas"));
+		assertTrue(bundle.getString(MessageBundle.FIG2).equals("Testes automatizados e"));
+		assertTrue(bundle.getString(MessageBundle.FIG22).equals("acompanhamento online"));
+		assertTrue(bundle.getString(MessageBundle.FIG3).equals("Centro de desenvolvimento no exterior"));
+		assertTrue(bundle.getString(MessageBundle.FIG33).equals("com atendimento brasileiro"));
+		assertTrue(bundle.getString(MessageBundle.FIG4).equals("soluÁ„o inovadora"));
+		assertTrue(bundle.getString(MessageBundle.FIG44).equals("e inteligente"));
+		assertTrue(bundle.getString(MessageBundle.FIG5).equals("uma nova maneira"));
+		assertTrue(bundle.getString(MessageBundle.FIG55).equals("de pensar software"));
 		
 	// Testing for contact page Display
-		assertTrue(bundle.getString(MessageBundle.CONTACT11).equals("Agende uma visita"));
-		assertTrue(bundle.getString(MessageBundle.CONTACT12).equals("Entre em contato conosco ou venha nos visitar"));
+		assertTrue(bundle.getString(MessageBundle.CONTACT11).equals("Venha nos visitar ou entre em contato conosco."));
+		assertTrue(bundle.getString(MessageBundle.CONTACT12).equals("ConheÁa nosso time e processo de desenvolvimento."));
+
 		
 		// Testing for The Brazil Address parameters
 		assertTrue(bundle.getString(MessageBundle.ADBR1).equals("Brasil"));
@@ -54,11 +55,11 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.ADBR6).equals("contato@modinify.com"));
 		
 		// Testing for Indian Address parameters
-		assertTrue(bundle.getString(MessageBundle.ADIN1).equals("INDIA"));
-		assertTrue(bundle.getString(MessageBundle.ADIN2).equals("Azad Road"));
-		assertTrue(bundle.getString(MessageBundle.ADIN3).equals("Kaloor, Cochin-17"));
-		assertTrue(bundle.getString(MessageBundle.ADIN4).equals("Kerala, 682017"));
-		assertTrue(bundle.getString(MessageBundle.ADIN5).equals("+91 7561 810919"));
+		assertTrue(bundle.getString(MessageBundle.ADIN1).equals("ÕNDIA"));
+		assertTrue(bundle.getString(MessageBundle.ADIN2).equals("Issac's Utility Point, 2nd Floor"));
+		assertTrue(bundle.getString(MessageBundle.ADIN3).equals("Green Garden Rd, Kakkanad (P.O), Ernakulam"));
+		assertTrue(bundle.getString(MessageBundle.ADIN4).equals("682030, Kerala"));
+		assertTrue(bundle.getString(MessageBundle.ADIN5).equals("+91 7561 810 919"));
 		assertTrue(bundle.getString(MessageBundle.ADIN6).equals("contact@modinify.com"));}
 
 	// Testing in the Default Bundle properties
@@ -81,7 +82,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("Meet our factory, meet MOD!"));
 
 		// Testing for the Figure Messages in Service Page
-		assertTrue(bundle.getString(MessageBundle.FIG0).equals("A diffrentFactory"));
+		assertTrue(bundle.getString(MessageBundle.FIG0).equals("A Different Factory"));
 		assertTrue(bundle.getString(MessageBundle.FIG1).equals("Alive specifications,more"));
 		assertTrue(bundle.getString(MessageBundle.FIG11).equals("objective and dynamic"));
 		assertTrue(bundle.getString(MessageBundle.FIG2).equals("Automated tests and"));
@@ -133,7 +134,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("Meet our factory, meet MOD!"));		
 		
 		// Testing for the Figure Messages in Service Page
-		assertTrue(bundle.getString(MessageBundle.FIG0).equals("A diffrentFactory"));
+		assertTrue(bundle.getString(MessageBundle.FIG0).equals("A Different Factory"));
 		assertTrue(bundle.getString(MessageBundle.FIG1).equals("Alive specifications,more"));
 		assertTrue(bundle.getString(MessageBundle.FIG11).equals("objective and dynamic"));
 		assertTrue(bundle.getString(MessageBundle.FIG2).equals("Automated tests and"));
