@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,10 +27,9 @@ public class MainServlet extends HttpServlet {
 		// This is an example how to set manually locale
 		// locale = new Locale("pt", "BR");
 		ResourceBundle bundle = ResourceBundle.getBundle("com.modinify.messages.index", locale);
-		
-		// only for tests proposes...
-		response.getWriter().println("Hello!");
-		
+		RequestDispatcher dispatcher=getServletContext().getRequestDispatcher("/index.jsp");
+		request.setAttribute( "Bundle", bundle);
+		dispatcher.forward(request, response);
 	}
 
 	/**

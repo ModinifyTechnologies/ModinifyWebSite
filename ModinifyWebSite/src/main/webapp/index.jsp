@@ -4,15 +4,11 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]--> 
-<%@page import="java.util.Locale"%>
 <%@page import="java.util.ResourceBundle"%>
 <%@page import="com.modinify.messages.MessageBundle" %>
 
 <%
-	Locale locale = request.getLocale();
-	// This is an example how to set manually locale
-	// locale = new Locale("pt", "BR");
-	ResourceBundle bundle = ResourceBundle.getBundle("com.modinify.messages.index", locale);
+	ResourceBundle bundle =(ResourceBundle)request.getAttribute("Bundle");
 %>
 
 
