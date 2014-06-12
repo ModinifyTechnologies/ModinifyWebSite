@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.modinify.text.ParseText;
+
 /**
  * Servlet implementation class MainServlet
  */
@@ -24,8 +26,13 @@ public class MainServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Locale locale = request.getLocale();
-		// This is an example how to set manually locale
-		// locale = new Locale("pt", "BR");
+		String result[] = ParseText.parseTextToArray(request.getParameter("set"));
+		
+		if (result != null && result.length == 2){
+			// setting manually bundle...
+			locale = new Locale(result[0], result[1]);
+		}
+		
 		ResourceBundle bundle = ResourceBundle.getBundle("com.modinify.messages.index", locale);
 		RequestDispatcher dispatcher=getServletContext().getRequestDispatcher("/index.jsp");
 		request.setAttribute( "Bundle", bundle);

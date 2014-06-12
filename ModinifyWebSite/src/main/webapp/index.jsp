@@ -37,7 +37,11 @@
             <div id="wrapper">
                 <section id="home">
                     <div class="wrap">
-                        <nav class="menu">
+                    	<div id="menuLang">
+							<a href="MainServlet?set=pt_BR">PT</a>
+							<a href="MainServlet?set=en_US">EN</a>
+						</div>  
+                    	<nav class="menu">
                             <ul>
                                 <li>
                                     <a href="#/home" title="">
