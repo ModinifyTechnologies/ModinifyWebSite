@@ -139,7 +139,7 @@
                             </nav>
                         </header>
                         <p class="p-1">
-				<span><%=bundle.getString(MessageBundle.BODY_ABOUT1)%></span>
+						<span><%=bundle.getString(MessageBundle.BODY_ABOUT1)%></span>
                         </p>
                         <div class="wrap-social">
                             <div class="id-social">
@@ -165,10 +165,10 @@
                                     </ul>
                                 </div>
                                 <p class="p-2"><%=bundle.getString(MessageBundle.BODY_ABOUT2) %></p>
-                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%><br><br>
-                                <%=bundle.getString(MessageBundle.BODY_ABOUT4)%>
-                                </p>
-                                 
+                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%></p>
+                                <!-- 
+                                <p class="p-2"><%=bundle.getString(MessageBundle.BODY_ABOUT4)%></p>
+                                 --> 
                             </div>
                             <div class="bg-mod"></div>
                         </section>
@@ -221,21 +221,21 @@
                                     <br />
                                       <%=bundle.getString(MessageBundle.FIG11) %> 
                                     </h3>
-                                    <img src="img/img1-service.png" alt="Fábrica brasileira de códigos na Índia" />
+                                    <img src="img/img1-service.png" alt="" />
                                 </div>
                                 <div class="rec-atendimento">
                                     <h3>
                                        <%=bundle.getString(MessageBundle.FIG2)%><br />
                                        <%= bundle.getString(MessageBundle.FIG22)%>
                                     </h3>
-                                    <img src="img/img2-service.png" alt="Atendimento no Brasil e suporte brasileiro na Índia" />
+                                    <img src="img/img2-service.png" alt="" />
                                 </div>
                                 <div class="rec-codigo">
                                     <h3>
                                         <%= bundle.getString(MessageBundle.FIG3)%><br />
                                        <%=bundle.getString(MessageBundle.FIG33)%>
                                     </h3>
-                                    <img src="img/img3-service.png" alt="Códigos indianos com qualidade brasileira" />
+                                    <img src="img/img3-service.png" alt="" />
                                 </div>
                             </div>
                             <div class="qualidades">
