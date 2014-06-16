@@ -209,11 +209,11 @@ header h1 {
 }
 
 #home h2 {
-    font-size: 36px;
-    color: #fff;
-    margin: 41px 58px 0 0;
+	font-size: 30px;
+	color: #fff;
+	margin: 41px 58px 0 0;
     *margin: 291px 58px 0 0;
-    float: right;
+	float: right;
 }
 
 #home .tools {

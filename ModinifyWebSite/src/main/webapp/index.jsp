@@ -80,7 +80,9 @@
                         <div class="title">
                             <h1><%=bundle.getString(MessageBundle.INDEX_TITLE)%></h1>
                         </div>
-                        <h2><%=bundle.getString(MessageBundle.BODY_DISPLAY)%></h2>
+                        <div class="displayHome">
+                        	<h2><%=bundle.getString(MessageBundle.BODY_DISPLAY)%></h2>
+                        </div>
                         <div class="tools">
                             <ul>
                                 <li><img src="img/logo1-tool.jpg" alt=""></li>
@@ -165,10 +167,8 @@
                                     </ul>
                                 </div>
                                 <p class="p-2"><%=bundle.getString(MessageBundle.BODY_ABOUT2) %></p>
-                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%></p>
-                                <!-- 
-                                <p class="p-2"><%=bundle.getString(MessageBundle.BODY_ABOUT4)%></p>
-                                 --> 
+                                <p class="p-2 not"><%=bundle.getString(MessageBundle.BODY_ABOUT3)%> <br><br>
+                                					<%=bundle.getString(MessageBundle.BODY_ABOUT4)%></p> 
                             </div>
                             <div class="bg-mod"></div>
                         </section>
