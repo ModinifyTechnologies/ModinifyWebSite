@@ -78,7 +78,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("More than technology, it's our passion"));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT1).equals("New solutions, changes and features need to be delivered filling clients needs instead of technology requirements. In addition, quality should be basis of everything and not an asset. However, the traditional software development models is not following the trends and current market needs."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Thinking about it, Richard Ferraresi and Aline Borges have created a structure with development centers and units abroad Brazil, applying agility concepts, with short deliveries and more customer interaction, supplemented by automated tests and monitoring tools, bringing better results on our solutions."));
-		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Our development process is different and mod(ern) and follows new trends. Above all, we believe our passion for technology will make your experience outstanding."));
+		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Our development process is different and modern. Above all, we believe our passion for technology will make your experience outstanding."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("Meet our team, meet MOD!"));
 
 		// Testing for the Figure Messages in Service Page
@@ -130,7 +130,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("More than technology, it's our passion"));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT1).equals("New solutions, changes and features need to be delivered filling clients needs instead of technology requirements. In addition, quality should be basis of everything and not an asset. However, the traditional software development models is not following the trends and current market needs."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Thinking about it, Richard Ferraresi and Aline Borges have created a structure with development centers and units abroad Brazil, applying agility concepts, with short deliveries and more customer interaction, supplemented by automated tests and monitoring tools, bringing better results on our solutions."));
-		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Our development process is different and mod(ern) and follows new trends. Above all, we believe our passion for technology will make your experience outstanding."));
+		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Our development process is different and modern. Above all, we believe our passion for technology will make your experience outstanding."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT4).equals("Meet our team, meet MOD!"));		
 		
 		// Testing for the Figure Messages in Service Page
