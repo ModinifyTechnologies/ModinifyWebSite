@@ -75,7 +75,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.INDEX_CONTACT).equals("Contact"));
 		
 		//Testing for the display messages inside the About Page
-		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("More than technology, it's our passion"));
+		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("More than technology, our passion"));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT1).equals("New solutions, changes and features need to be delivered filling clients needs instead of technology requirements. In addition, quality should be basis of everything and not an asset. However, the traditional software development models is not following the trends and current market needs."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Thinking about it, Richard Ferraresi and Aline Borges have created a structure with development centers and units abroad Brazil, applying agility concepts, with short deliveries and more customer interaction, supplemented by automated tests and monitoring tools, bringing better results on our solutions."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Our development process is different and modern. Above all, we believe our passion for technology will make your experience outstanding."));
@@ -95,7 +95,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.FIG55).equals("thinking"));
 
 		// Testing for contact page Display
-		assertTrue(bundle.getString(MessageBundle.CONTACT11).equals("Come visit us or contact us."));
+		assertTrue(bundle.getString(MessageBundle.CONTACT11).equals("Come visit or contact us."));
 		assertTrue(bundle.getString(MessageBundle.CONTACT12).equals("Meet our team and development process."));
 		
 		// Testing for The Brazil Address parameters
@@ -108,7 +108,7 @@ public class MyRunTest {
 			
 		// Testing for Indian Address parameters
 		assertTrue(bundle.getString(MessageBundle.ADIN1).equals("INDIA"));
-		assertTrue(bundle.getString(MessageBundle.ADIN2).equals("Bldg 10/59 D3a, Issac's Utility Point, 2nd Floor"));	
+		assertTrue(bundle.getString(MessageBundle.ADIN2).equals("Issac's Utility Point, 2nd Floor"));	
 		assertTrue(bundle.getString(MessageBundle.ADIN3).equals("Green Garden Rd, Kakkanad (P.O), Ernakulam"));
 		assertTrue(bundle.getString(MessageBundle.ADIN4).equals("Zip Code 682030, Kochi, Kerala"));
 		assertTrue(bundle.getString(MessageBundle.ADIN5).equals("+91 7561 810 919"));		
@@ -127,7 +127,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.INDEX_CONTACT).equals("Contact"));
 		
 		//Testing for the display messages inside the About Page
-		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("More than technology, it's our passion"));
+		assertTrue(bundle.getString(MessageBundle.BODY_DISPLAY).equals("More than technology, our passion"));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT1).equals("New solutions, changes and features need to be delivered filling clients needs instead of technology requirements. In addition, quality should be basis of everything and not an asset. However, the traditional software development models is not following the trends and current market needs."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT2).equals("Thinking about it, Richard Ferraresi and Aline Borges have created a structure with development centers and units abroad Brazil, applying agility concepts, with short deliveries and more customer interaction, supplemented by automated tests and monitoring tools, bringing better results on our solutions."));
 		assertTrue(bundle.getString(MessageBundle.BODY_ABOUT3).equals("Our development process is different and modern. Above all, we believe our passion for technology will make your experience outstanding."));
@@ -147,7 +147,7 @@ public class MyRunTest {
 		assertTrue(bundle.getString(MessageBundle.FIG55).equals("thinking"));
 		
 		// Testing for contact page Display
-		assertTrue(bundle.getString(MessageBundle.CONTACT11).equals("Come visit us or contact us."));
+		assertTrue(bundle.getString(MessageBundle.CONTACT11).equals("Come visit or contact us."));
 		assertTrue(bundle.getString(MessageBundle.CONTACT12).equals("Meet our team and development process."));
 		
 		// Testing for The Brazil Address parameters
@@ -160,7 +160,7 @@ public class MyRunTest {
 		
 		// Testing for Indian Address parameters
 		assertTrue(bundle.getString(MessageBundle.ADIN1).equals("INDIA"));
-		assertTrue(bundle.getString(MessageBundle.ADIN2).equals("Bldg 10/59 D3a, Issac's Utility Point, 2nd Floor"));
+		assertTrue(bundle.getString(MessageBundle.ADIN2).equals("Issac's Utility Point, 2nd Floor"));
 		assertTrue(bundle.getString(MessageBundle.ADIN3).equals("Green Garden Rd, Kakkanad (P.O), Ernakulam"));
 		assertTrue(bundle.getString(MessageBundle.ADIN4).equals("Zip Code 682030, Kochi, Kerala"));
 		assertTrue(bundle.getString(MessageBundle.ADIN5).equals("+91 7561 810 919"));	
