@@ -219,7 +219,9 @@ header h1 {
 #home .tools {
     position: absolute;
     bottom: 0;
-    height: 85px;
+    width: 1000px;
+	padding-left: 70px;
+	height: 85px;
     background-color: #fff;
 }
 

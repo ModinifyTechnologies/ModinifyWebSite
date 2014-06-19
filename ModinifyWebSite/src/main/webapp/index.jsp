@@ -88,7 +88,6 @@
                                 <li><img src="img/logo1-tool.jpg" alt=""></li>
                                 <li><img src="img/logo2-tool.jpg" alt=""></li>
                                 <li><img src="img/logo3-tool.jpg" alt=""></li>
-                                <li><img src="img/logo4-tool.jpg" alt=""></li>
                                 <li><img src="img/logo5-tool.jpg" alt=""></li>
                                 <li><img src="img/logo6-tool.jpg" alt=""></li>
                                 <li><img src="img/logo7-tool.jpg" alt=""></li>
